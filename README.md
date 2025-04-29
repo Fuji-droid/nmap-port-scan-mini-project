@@ -42,7 +42,7 @@ nmap YOUR_IP_ADDRESS
 
 (Replace `YOUR_IP_ADDRESS` with the address found in the previous step.)
 
-You will likely see a result showing no open ports. (Screenshot: NMAP1)
+You will likely see a result showing no open ports. (Refer to NMAP1 image for reference on how it looks like)
 
 **5. Install a service to create an open port:** To simulate an open port, install a basic web server like **Apache**:
 
@@ -56,7 +56,7 @@ sudo apt install apache2
 sudo systemctl status apache2
 ```
 
-You should see a message indicating that the Apache service is **active (running)**. (Screenshot: NMAP3)
+You should see a message indicating that the Apache service is **active (running)**. (Refer to NMAP3 image for reference on how it looks like)
 
 **7. Run another nmap scan:** After installing Apache, re-run the nmap command:
 
